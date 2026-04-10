@@ -28,7 +28,6 @@ import {
   Home,
   Landmark,
   Lock,
-  Menu,
   Moon,
   Plus,
   RefreshCw,
@@ -3632,12 +3631,6 @@ export default function App() {
           <header className="sticky top-0 z-10 border-b border-slate-200 bg-white/95 px-4 py-3 backdrop-blur dark:border-slate-700 dark:bg-slate-900/95">
             <div className="mx-auto flex w-full max-w-6xl items-center justify-between gap-3">
               <div className="flex items-center gap-2">
-                <button
-                  type="button"
-                  className="inline-flex h-10 w-10 items-center justify-center rounded-xl border border-slate-200 bg-slate-50 text-slate-600 lg:hidden dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300"
-                >
-                  <Menu size={18} />
-                </button>
                 <div>
                   <h1 className="text-lg font-bold">{PAGE_TITLES[page] || 'MyMoney'}</h1>
                   <p className="text-xs text-slate-500 dark:text-slate-400">{format(new Date(), 'EEEE, MMM d')}</p>
