@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MyMoney
 
 **MyMoney** is a modern, mobile-first personal finance manager built with React + Tailwind CSS.  
@@ -119,3 +120,8 @@ Then drag the `dist` folder into Netlify’s manual deploy UI.
 - Default currency is **INR (₹)**
 - On first launch, financial values start empty so users can enter their own data
 - This is a client-only app; no external API calls are required
+- All data is stored locally in the browser; clearing browser data will reset the app
+- For any issues or feature requests, please open an issue on GitHub.
+
+---## License 
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
