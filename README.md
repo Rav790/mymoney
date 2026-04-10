@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # MyMoney
 
 **MyMoney** is a modern, mobile-first personal finance manager built with React + Tailwind CSS.  
@@ -123,5 +123,3 @@ Then drag the `dist` folder into Netlify’s manual deploy UI.
 - All data is stored locally in the browser; clearing browser data will reset the app
 - For any issues or feature requests, please open an issue on GitHub.
 
----## License 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
